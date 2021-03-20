@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box; /* permite fazer alteração na area interna sem que altere o valor da externa, não estourando o container*/
+  /* respeita o width*/
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #eacfcf;
+}
+.cartao {
+  max-width: 572px;
+  background: #3b2b36;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.img {
+  max-width: 527px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+}
+.img img {
+  max-height: 154px;
+  max-width: 156px;
+  border-radius: 50%;
+}
+.nome {
+  max-width: 527px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+}
+.nome h1 {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 44px;
+  align-self: center;
+  color: #e5a9a9;
+}
+.formacao {
+  max-width: 527px;
+
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.formacao h2 {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #e5a9a9;
+}
+.local {
+  max-width: 527px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-top: 70px;
+}
+.local h3 {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 31px;
+  color: #e5a9a9;
+}
+.redes {
+  max-width: 572px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: #e5a9a9;
+  border-radius: 6px;
+  align-content: center;
+  justify-content: center;
+  padding: 40px;
+  margin-top: -10px;
+}
+.icons {
+  display: block;
+
+  margin: 0 10px;
+}
+.icons img {
+  width: 55px;
+  margin: 10px;
+}
+@media screen and (max-width: 600px) {
+  div.nome {
+    padding-left: 115px;
+  }
+  div.img {
+    padding-left: 10px;
+  }
+  div.local {
+    padding-left: 20px;
+  }
+}
